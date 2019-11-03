@@ -37,6 +37,7 @@ WebPushLib.prototype.setGCMAPIKey = function(apiKey) {
     throw new Error('The GCM API Key should be a non-empty string or null.');
   }
 
+  vapidDetails = null;
   gcmAPIKey = apiKey;
 };
 
